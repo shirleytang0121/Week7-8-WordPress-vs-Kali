@@ -19,15 +19,16 @@ Time spent: **X** hours spent in total
    - view page to see the alert
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/adv/wordpress3.html)
-1. (Required) Vulnerability Name or ID
+2. (Required)User enumeration using wpscan
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types:User enumeration
+    - Tested in version:4.2
+    - Fixed in version: 4.2.6
   - [ ] GIF Walkthrough: 
+        - <img src="wp1.gif" width="800">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
