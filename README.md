@@ -12,7 +12,7 @@ Time spent: **X** hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.2.5
   - [ ] GIF Walkthrough: 
-  
+       - <img src="xss.gif" width="800">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
