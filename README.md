@@ -26,7 +26,9 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.6
   - [ ] GIF Walkthrough: 
         - <img src="wp1.gif" width="800">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate:
+     - Open Kall, in the terminal run: `wpscan --url http://wpdistillery.vm --enumerate u`
+     - it shows the user info.
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php)
 1. (Required) Vulnerability Name or ID
