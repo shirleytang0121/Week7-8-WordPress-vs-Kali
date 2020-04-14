@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -31,15 +31,17 @@ Time spent: **X** hours spent in total
      - it shows the user info.
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php)
-1. (Required) Vulnerability Name or ID
+3. (Required) 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types:xss
+    - Tested in version:4.2
+    - Fixed in version: 4.2.6
   - [ ] GIF Walkthrough: 
+     - <img src="wp2.gif" width="800">
   - [ ] Steps to recreate: 
+    - leave comment `<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAA...[64KB]...AAA>`
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://klikki.fi/adv/wordpress2.html)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
